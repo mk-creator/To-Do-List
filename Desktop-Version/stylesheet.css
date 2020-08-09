@@ -1,0 +1,218 @@
+
+/* ------------- Global styles for fixed elements ------------- */
+
+
+body{
+    /* background-image: linear-gradient(to left, #fbc2eb 0%, #a6c1ee 100%); */
+    background-image: linear-gradient(to left, #09203f 0%, #537895 100%);
+    font-family: sans-serif;
+}
+
+section.add{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button:focus {outline:0;}
+
+div.addListInput{
+    display: none;
+}
+
+button.delete{
+    height: 30px;
+    width: 30px;
+    margin-top: 17px;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 3px solid rgb(166, 189, 204);
+    background-color: transparent;
+    color: rgb(166, 189, 204);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: none;
+}
+
+/* div.addListButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+button.addList{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px ;
+    border: 4px solid rgb(166, 189, 204);
+    background-color: transparent;
+    color: rgb(166, 189, 204);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px 10px 0px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+input.addListNew{
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-weight: 700;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+button.addListNew{
+    height: 35px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 40px ;
+    border: 4px solid rgb(166, 189, 204);
+    background-color: transparent;
+    color: rgb(166, 189, 204);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    float: right;
+}
+
+
+input.plusInput{
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-weight: 700;
+    height: 20px;
+    margin-top: 21px;
+    width: 120px;
+}
+
+button.plus{
+    height: 30px;
+    width: 30px;
+    margin-top: 17px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 3px solid rgb(166, 189, 204);
+    background-color: transparent;
+    color: rgb(166, 189, 204);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+div.pressed{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    display: none;
+}
+
+ul{
+    overflow: hidden;
+}
+
+li  {
+    /* background-image: linear-gradient(to left, #96fbc4 0%, #f9f586 100%); */
+    background-image: linear-gradient(to left, #fbc2eb 0%, #a6c1ee 100%);
+    margin: 0 15px 5px -15px;
+    padding: 5px 20px; 
+    border-radius: 10px; 
+}
+
+li.completing{
+    background-image: linear-gradient(to left, rgb(74, 214, 74) 0%, rgb(8, 187, 8) 100%);
+}
+
+li.completed{
+    background-image: linear-gradient(to left, rgb(73, 73, 73) 0%, rgb(172, 172, 172) 100%);
+    text-decoration: line-through;
+}
+
+li.del{
+    background-image: linear-gradient(to left, rgb(226, 95, 95) 0%, rgb(230, 15, 15) 100%);
+}
+
+div.heading {
+    margin-left: 0%;
+    margin-right: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+h1{
+    margin-left: -8px;
+    text-transform: capitalize;
+    font-size: 20px
+}
+
+button.addButton{
+    width: 60px;
+    height: 25px;
+    margin-top: 35%;
+    margin-left: -10%;
+    border-radius: 50px ;
+    border: 4px solid rgb(166, 189, 204);
+    background-color: transparent;
+    color: rgb(166, 189, 204);
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;    
+}
+
+div.dropdown{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+button.dropdown{
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 11px solid black;
+    border-bottom: 7px solid transparent;
+    border-right: transparent;
+    border-radius: 5px;
+    margin-top: 19px;
+    background: transparent;
+    cursor: pointer;
+}
+
+button.dropdown.open{
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 11px solid black;
+    border-bottom: 7px solid transparent;
+    border-right: transparent;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-left: -5px;
+    background: transparent;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+
+div.close{
+    max-height: 0;
+    overflow: hidden;
+}
+
