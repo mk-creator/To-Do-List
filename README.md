@@ -13,6 +13,6 @@ Extremely Straight Forward and intuitive.
 * To mark a task as done drag it to the right.
 * Thats All! Enjoy :)
 
-## Note:
+### Note:
 There are two seperate versions as the mobile-version works with a touchscreen while the desktop-version works with a mouse.
 
